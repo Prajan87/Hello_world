@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Please enter destination of the folder"
+read folder
+if [ -d "$folder" ]
+then
+	echo "Your folder exists!"
+else
+	echo "Your folder does not exists!"
+fi
