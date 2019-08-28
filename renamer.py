@@ -1,3 +1,4 @@
+#Renaming files in a directory
 import os
 os.chdir('/home/prajan/Projects/AutoParsing/folder')
 for f in os.listdir():
